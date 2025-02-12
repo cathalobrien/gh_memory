@@ -9,6 +9,7 @@ g++ alloc.cc -o alloc.so -I/usr/local/cuda/include -shared -fPIC -lnuma
 ```
 
 # using with torch
+
 ```python
 # Load the allocator
 new_alloc = torch.cuda.memory.CUDAPluggableAllocator(

@@ -80,6 +80,6 @@ void my_free(void* ptr, ssize_t size, int device, cudaStream_t stream) {
    else {
            cudaFree(ptr);
    }
-}
+=======
 
 }
